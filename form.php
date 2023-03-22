@@ -4,10 +4,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-    // if ($_POST["lang"] == "ar") {
-    //     header("location:index.php");
-    //     exit();
-    // }
+    
     ($_POST["lang"] == "ar" ? header("location:index.php") : ($_POST["lang"] == "en" ? header("location:imed.txt") : ''));
     ($_POST["lang"] == "ar" ? header("location:index.php") : ($_POST["lang"] == "en" ? header("location:imed.txt") : ''));
 }
