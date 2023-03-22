@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     //     exit();
     // }
     ($_POST["lang"] == "ar" ? header("location:index.php") : ($_POST["lang"] == "en" ? header("location:imed.txt") : ''));
+    ($_POST["lang"] == "ar" ? header("location:index.php") : ($_POST["lang"] == "en" ? header("location:imed.txt") : ''));
 }
 
 ?>
